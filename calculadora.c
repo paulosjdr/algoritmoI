@@ -21,8 +21,8 @@ int main()
         printf("4. DIVIDIR\n");
         printf("5. RAIZ QUADRADA\n");
         printf("%d. SAIR\n\n", OP_SAIR);
-        printf("INFORME SUA OP«√O: ");
-        scanf("%d", &opcao); // Faz a leitura da opÁ„o do usu·rio
+        printf("INFORME SUA OP√á√ÉO: ");
+        scanf("%d", &opcao); // Faz a leitura da op√ß√£o do usu√°rio
 /*
         if(opcao == 1){
             printf("Somando...");
@@ -39,52 +39,52 @@ int main()
 */
         switch(opcao){
             case 1:
-                printf("INFORME O PRIMEIRO N⁄MERO: ");
+                printf("INFORME O PRIMEIRO N√öMERO: ");
                 scanf("%f", &v1);
-                printf("INFORME O SEGUNDO N⁄MERO: ");
+                printf("INFORME O SEGUNDO N√öMERO: ");
                 scanf("%f", &v2);
                 resultado = v1 + v2;
                 printf("%.2f + %.2f = %.2f\n", v1,v2,resultado);
                 system("pause");
                 break;
             case 2:
-                printf("INFORME O PRIMEIRO N⁄MERO: ");
+                printf("INFORME O PRIMEIRO N√öMERO: ");
                 scanf("%f", &v1);
-                printf("INFORME O SEGUNDO N⁄MERO: ");
+                printf("INFORME O SEGUNDO N√öMERO: ");
                 scanf("%f", &v2);
                 resultado = v1 - v2;
                 printf("%.2f - %.2f = %.2f\n", v1,v2,resultado);
                 system("pause");
                 break;
             case 3:
-                printf("INFORME O PRIMEIRO N⁄MERO: ");
+                printf("INFORME O PRIMEIRO N√öMERO: ");
                 scanf("%f", &v1);
-                printf("INFORME O SEGUNDO N⁄MERO: ");
+                printf("INFORME O SEGUNDO N√öMERO: ");
                 scanf("%f", &v2);
                 resultado = v1 * v2;
                 printf("%.2f * %.2f = %.2f\n", v1,v2,resultado);
                 system("pause");
                 break;
             case 4:
-                printf("INFORME O PRIMEIRO N⁄MERO: ");
+                printf("INFORME O PRIMEIRO N√öMERO: ");
                 scanf("%f", &v1);
-                printf("INFORME O SEGUNDO N⁄MERO: ");
+                printf("INFORME O SEGUNDO N√öMERO: ");
                 scanf("%f", &v2);
                 resultado = v1 / v2;
                 printf("%.2f / %.2f = %.2f\n", v1,v2,resultado);
                 system("pause");
                 break;
             case 5:
-                printf("INFORME UM N⁄MERO: ");
+                printf("INFORME UM N√öMERO: ");
                 scanf("%f", &v1);
                 resultado = sqrt (v1);
-                printf("O RESULTADO …: %.2f\n", resultado);
+                printf("O RESULTADO √â: %.2f\n", resultado);
                 system("pause");
                 break;
 
             default:
                 if(opcao != OP_SAIR){
-                    printf("OP«√O INV¡LIDA!!!");
+                    printf("OP√á√ÉO INV√ÅLIDA!!!");
                     system("pause");
                     break;
                 }
