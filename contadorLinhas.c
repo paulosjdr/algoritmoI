@@ -13,8 +13,8 @@ int main()
     int linhas;
     printf("INFORME A QUANTIDADE DE LINHAS: ");
     scanf("%d", &linhas);
-    for(int i = 0; i<linhas ; i++){ //contador
-        for(int j = 0; j < i; j++){ //contador
+    for(int i = 1; i<=linhas ; i++){ //contador
+        for(int j = 1; j < i; j++){ //contador
             if(j%2!=0)
                 printf("*"); //repetindo o nr da linha
             else
