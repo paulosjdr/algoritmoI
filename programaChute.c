@@ -15,7 +15,7 @@ int main()
 
     srand((unsigned)time(NULL));
     numAleatorio = rand()%NUMERO_MAXIMO;
-    printf("NÚMERO = %d\n", numAleatorio);
+    printf("NÃšMERO = %d\n", numAleatorio);
 
     do {
         chute = rand()%6;
@@ -23,16 +23,16 @@ int main()
         printf("TENTATIVA: %d -> CHUTE = %d\n\n", tentativas,chute);
 
         if(chute == numAleatorio){
-            printf("PARABÉNS, VOCÊ ACERTOU!!!\n");
+            printf("PARABÃ‰NS, VOCÃŠ ACERTOU!!!\n");
             break;
 
         }
         else
-            printf("VOCÊ ERROU! TENTE NOVAMENTE!\n");
+            printf("VOCÃŠ ERROU! TENTE NOVAMENTE!\n");
     } while(tentativas < QUANTIDADE_TENTATIVAS);
 
     if(tentativas>=QUANTIDADE_TENTATIVAS)
-        printf("VOCÊ PERDEU!");
+        printf("VOCÃŠ PERDEU!");
 
 
     return 0;
