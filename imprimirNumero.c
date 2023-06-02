@@ -9,7 +9,7 @@ int main()
 
     int pular;
 
-    printf("INFORME O NÚMERO: ");
+    printf("INFORME O NÃšMERO: ");
     scanf("%d", &pular);
 
     for(int numero=0; numero<=10; numero++){
