@@ -4,7 +4,7 @@
 
 int main()
 {
-    for(int i = 0; i<50 ; i++){ //contador
+    for(int i = 0; i<5 ; i++){ //contador
         printf("*\n");
     }
 
