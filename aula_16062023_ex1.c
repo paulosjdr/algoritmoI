@@ -6,7 +6,7 @@ int main()
     float notas[5];
     float soma;
 
-    //fazer a leitura das notas
+    //fazer a leitura das notas dos alunos
     for(int i = 0; i < 5; i++){
         printf("DIGITE A NOTA %d DO ALUNO: ", i+1);
         scanf("%f", &notas[i]);
