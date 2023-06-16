@@ -8,7 +8,7 @@ int main()
     float notas[QTDE_NOTAS];
     float soma = 0;
 
-    //fazer a leitura das notas
+    //fazer a leitura das notas dos alunos
     for(int i = 0; i < QTDE_NOTAS; i++){
         printf("DIGITE A NOTA %d DO ALUNO: ", i+1);
         scanf("%f", &notas[i]);
